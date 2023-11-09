@@ -21,8 +21,6 @@ You need to change the Alphafold command in the auto_protein_design.sh script
 
 Before you can run the script, you need to change directories in the following scripts:
 
-	In the 
-
 	In the "2-proteinmpnn" folder:
 	
 * all pdb_{i}.sh	(Define the ProteinMPNN software folder)
