@@ -21,20 +21,16 @@ You need to change the Alphafold command in the auto_protein_design.sh script
 
 Before you can run the script, you need to change directories in the following scripts:
 
-	In the "2-proteinmpnn" folder:
-	
-* all pdb_{i}.sh	(Define the ProteinMPNN software folder)
+In the "2-proteinmpnn" folder: Define the ProteinMPNN software folder for all pdb_{i}.sh bash scripts
 
-	In the "3-alphafold" folder:
-* af2_allfasta.py	(Define path to the alphafold script "run_docker.py")
-
+In the "3-alphafold" folder: Define path to the alphafold script "run_docker.py" for the af2_allfasta.py python script
 
 
 ### Now you can run the script!! ###
 Before you can run the auto_protein_design.sh script you have to run the change_apd.py script with:
-python change_apd.py
+	python change_apd.py
 ## Then you can run auto_protein_design by:
-source auto_protein_design
+	source auto_protein_design
 
 
 ### A bit about all the scripts ###
