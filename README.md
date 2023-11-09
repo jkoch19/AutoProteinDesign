@@ -5,7 +5,7 @@ This script is written by someone who had almost zero python programming experie
 
 This script combines the powers of RFDiffussion, Protein-MPNN and Alphafold and removes the use of manual work once everything is set up. It does NOT install anything or relies on a single conda environment, so you need to have all conda environments  beforehand and define the executables for RFDiffusion, ProteinMPNN and Alphafold.
 
-### Need to know before running the script ###
+## Need to know before running the script
 
 1) RFDiffusion
 You need to insert your input pdb files in the "/apd/1-rfdiffusion/input" folder.
@@ -17,7 +17,7 @@ If you keep residues fixed in RFDiffusion, the addFIXEDlabels.py and iterative_f
 3) Alphafold
 You need to change the Alphafold command in the auto_protein_design.sh script
 
-### Change directories! ###
+## Change directories
 
 Before you can run the script, you need to change directories in the following scripts:
 
@@ -25,15 +25,18 @@ In the "2-proteinmpnn" folder: Define the ProteinMPNN software folder for all pd
 
 In the "3-alphafold" folder: Define path to the alphafold script "run_docker.py" for the af2_allfasta.py python script
 
-## Run APD
-### Now you can run the script!! ###
+## Run AutoProteinDesign
+
 Before you can run the auto_protein_design.sh script you have to run the change_apd.py script with:
-	"python change_apd.py"
+```
+python change_apd.py
+```
 Then you can run auto_protein_design by:
-	source auto_protein_design
+```
+source auto_protein_design
+```
 
-
-### A bit about all the scripts ###
+## A bit about the scripts
 
 * addFIXEDlabels.py - A script taken from dl_binder_design which writes the fixed amino acids (from RFDiffusion) into the pdb file itself.
 
