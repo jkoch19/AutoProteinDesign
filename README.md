@@ -1,9 +1,9 @@
 # AutoProteinDesign
 A script made as a part of my master thesis. This script automates the process of protein design by combining RFDiffusion, ProteinMPNN and Alphafold.
 
-This script is written by someone who had almost zero python programming experience before starting and heavily used ChatGPT to create the script. Therefore you have to make some small adjustments yourself to make it run (Everything you need to do is mentioned below).
+This script is written by someone who had almost zero python programming experience before starting this project. Therefore you have to make some small adjustments yourself to make it run (Everything you need to do is mentioned below).
 
-This script combines the powers of RFDiffussion, Protein-MPNN and Alphafold and removes the use of manual work once everything is set up. It does NOT install anything or relies on a single conda environment, so you need to have all conda environments  beforehand and define the executables for RFDiffusion, ProteinMPNN and Alphafold.
+This script combines the powers of RFDiffussion, Protein-MPNN and Alphafold and removes the use of manual work once everything is set up. It does NOT install anything or relies on a single conda environment, so you need to have all conda environments beforehand and define the executables for RFDiffusion, ProteinMPNN and Alphafold.
 
 ## Need to know before running the script
 
