@@ -28,8 +28,8 @@ In the "3-alphafold" folder: Define path to the alphafold script "run_docker.py"
 
 ### Now you can run the script!! ###
 Before you can run the auto_protein_design.sh script you have to run the change_apd.py script with:
-	python change_apd.py
- # Then you can run auto_protein_design by:
+	"python change_apd.py"
+Then you can run auto_protein_design by:
 	source auto_protein_design
 
 
