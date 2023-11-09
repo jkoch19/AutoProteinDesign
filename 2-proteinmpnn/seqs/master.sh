@@ -1,0 +1,11 @@
+#!/bin/bash
+./pdb0.sh
+./pdb1.sh
+./pdb2.sh
+./pdb3.sh
+./pdb4.sh
+./pdb5.sh
+./pdb6.sh
+./pdb7.sh
+./pdb8.sh
+./pdb9.sh
