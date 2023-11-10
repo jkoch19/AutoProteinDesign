@@ -1,5 +1,5 @@
 # AutoProteinDesign
-A script made as a part of my master thesis. This script automates the process of protein design by combining RFDiffusion, ProteinMPNN and Alphafold.
+This is a script made as a part of my master thesis at Aalborg University. This script automates the process of protein design by combining RFDiffusion, ProteinMPNN and Alphafold.
 
 This script is written by someone who had almost zero python programming experience before starting this project. Therefore you have to make some small adjustments yourself to make it run (Everything you need to do is mentioned below).
 
@@ -53,3 +53,6 @@ source auto_protein_design
 * af2_allfasta.py - Instead of manually inserting the name of ALL fastas in the alphafold command, this script takes ALL .fasta files it can find from the PorteinMPNN output and begins to fold them.
 
 * copy_relaxedfiles.py - Copies all ranked files from the alphafold output
+
+# Get in touch
+If you have any questions you can shoot me an email at jkoch19@student.aau.dk
