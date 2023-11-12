@@ -1,5 +1,5 @@
 # AutoProteinDesign
-This is a script made as a part of my master thesis at Aalborg University. This script automates the process of protein design by combining RFDiffusion, ProteinMPNN and Alphafold.
+This is a script made as a part of my master thesis at Aalborg University. This script automates the process of de novo protein design by combining RFDiffusion, ProteinMPNN and Alphafold.
 
 This script is written by someone who had almost zero python programming experience before starting this project. Therefore you have to make some small adjustments yourself to make it run (Everything you need to do is mentioned below).
 
