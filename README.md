@@ -53,6 +53,3 @@ source auto_protein_design
 * af2_allfasta.py - Instead of manually inserting the name of ALL fastas in the alphafold command, this script takes ALL .fasta files it can find from the PorteinMPNN output and begins to fold them.
 
 * copy_relaxedfiles.py - Copies all ranked files from the alphafold output
-
-# Get in touch
-If you have any questions you can shoot me an email at jkoch19@student.aau.dk
